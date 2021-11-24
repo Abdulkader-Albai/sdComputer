@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{> externalLibraries}}
+
+    <title>SB Admin 2 - Dashboard</title>
+
+
+
+</head>
+
+<body>
+<div id="wrapper">
+    {{> sidebar}}
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+            {{> topbar}}
+
+            <div class="container-fluid">
+
+
+{{{body}}}
+</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
